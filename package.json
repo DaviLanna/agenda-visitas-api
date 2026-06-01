@@ -1,0 +1,26 @@
+{
+  "name": "desafio-morada-agenda",
+  "version": "1.0.0",
+  "description": "Agenda de Visitas API - Morada.ai technical challenge",
+  "main": "dist/infrastructure/http/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/infrastructure/http/server.js",
+    "dev": "tsx watch src/infrastructure/http/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.2"
+  }
+}
