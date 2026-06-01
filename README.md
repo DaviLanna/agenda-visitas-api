@@ -1,6 +1,6 @@
 # Agenda de Visitas API — Morada.ai
 
-Microsserviço REST em TypeScript para gerenciamento de agendamentos de visitas a imóveis, evitando sobreposições de horário e sugerindo alternativas de forma determinística.
+Microsserviço REST em TypeScript para gerenciamento de agendamentos de visitas à imóveis, evitando sobreposições de horário e sugerindo alternativas.
 
 ---
 
